@@ -1,6 +1,6 @@
 <?php
 
-use Tusimo\Test;
+namespace Tusimo\Test;
 
 class Trans
 {
