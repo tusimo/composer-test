@@ -3,7 +3,7 @@
     "description": "a test composer package",
     "type": "library",
     "require": {
-        "nesbot/carbon": "dev-master"
+        "nesbot/carbon": "~1.3"
     },
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tusimo\\Test": "src/"
+            "Tusimo\\Test\\": "src/"
         }
     },
     "minimum-stability": "dev"
