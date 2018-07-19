@@ -1,0 +1,20 @@
+{
+    "name": "tusimo/test",
+    "description": "a test composer package",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "尤子墨",
+            "email": "youchengcheng@hotelgg.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tusimo\\Test": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
